@@ -1,0 +1,39 @@
+.Flexbox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+.profile-picture{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+p{
+  margin: 0px;
+}
+
+.follow-button{
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+.info{
+  width: 300px;
+}
+.name{
+  font-weight: bolder;
+}
+.popular{
+  color: gray;
+}

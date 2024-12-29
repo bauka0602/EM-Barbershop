@@ -1,0 +1,171 @@
+.subscribe-button{
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity .15s;
+}
+
+.subscribe-button:hover{
+  opacity: .7;
+}
+
+.subscribe-button:active{
+  opacity: .5;
+}
+
+
+.join-button{
+background-color: white;
+border-color: rgb(41, 118, 211);
+border-style: solid;
+border-width: 1px;
+border-radius: 2px;
+color: rgb(41, 118, 211);
+height: 36px;
+width: 62px;
+cursor: pointer;
+margin-right: 8px;
+transition: background-color .15s, color .15s; 
+
+}
+
+.join-button:hover{
+background-color: rgb(41, 118, 211);
+color: white;
+}
+
+.join-button:active{
+opacity: .7;
+}
+
+.tweet-button{
+background-color: rgb(29, 155, 240);
+border:none;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 16px;
+padding-right: 16px;
+border-radius: 18px;
+color:white;
+cursor: pointer;
+font-weight: bold;
+font-size: 15px;
+transition: box-shadow .15s;
+margin-right: 7px;
+}
+
+.tweet-button:hover{
+box-shadow: 5px 5px 10px rgba(0,0,0,.15);
+}
+
+.uber-button{
+width: 100px;
+background-color: black;
+height: 36px;
+cursor: pointer;
+color:white;
+transition: opacity .15s;
+}
+
+.uber-button:hover{
+opacity: .8;
+}
+
+.amazon-button{
+width: 170px;
+background-color: rgb(255, 216, 20);
+margin-left: 5px;
+border:none;
+border-radius: 16px;
+height: 36px;
+font-weight: bold;
+cursor: pointer;
+opacity: .8;
+transition: opacity .15s;
+}
+
+.amazon-button:hover{
+opacity: 1;
+}
+
+.signup-button{
+background-color: rgb(46,164,79);
+border:none;
+height: 40px;
+width: 90px;
+border-radius: 5px;
+margin-top: 5px;
+color: white;
+font-weight: bold;
+cursor: pointer;
+}
+
+.signup-button:hover{
+box-shadow: 5px 5px 10px rgba(0,0,0,.15);
+}
+
+.bootstrap-button{
+background-color: rgb(121,82,179);
+color: white;
+height: 36px;
+margin-left: 8px;
+width: 120px;
+font-weight: bold;
+border-radius: 5px;
+border:none;
+cursor: pointer;
+transition: background-color .15s;
+}
+
+.bootstrap-button:hover{
+background-color: rgb(103, 70, 151);
+}
+
+.download-button{
+background-color: white;
+color: rgb(108,117,125);
+height: 36px;
+margin-left: 8px;
+width: 120px;
+font-weight: bold;
+border-radius: 5px;
+border-color: rgb(108,117,125);
+border-width: thin;
+cursor: pointer;
+}
+
+.download-button:hover{
+background-color: gray;
+color:white;
+}
+
+.linkedin-button{
+background-color: rgb(10,102,194);
+color:white;
+height:36px;
+margin-left: 5px;
+margin-top: 10px;
+width: 200px;
+font-weight: bold;
+border-radius: 16px;
+border:none;
+cursor: pointer;
+}
+
+.save-button{
+background-color: white;
+color:rgb(10,102,194);
+height:36px;
+margin-left: 5px;
+margin-top: 10px;
+width: 75px;
+font-weight: bold;
+border-radius: 16px;
+border-color:rgb(10,102,194);
+cursor: pointer;
+}
